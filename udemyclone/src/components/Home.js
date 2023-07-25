@@ -7,7 +7,7 @@ const  Home = () =>{
         <div>
             Home component
             <Top/>
-
+            <p>Students are viewing</p>
             <Card/>
         </div>
         
