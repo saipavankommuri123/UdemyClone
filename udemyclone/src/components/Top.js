@@ -1,8 +1,9 @@
+import Navbar from "./Navbar";
 import "./Top.css"
 const Top = () => {
     return (
         <div className="top-container">
-            top
+           <Navbar/>
         </div>
     )
 }
