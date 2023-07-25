@@ -1,11 +1,26 @@
 .navbar-main{
     display: flex;
-    width:100%;
+    width:97%;
     height:70px;
     background-color: white;
     justify-content: space-around;
+   padding-left:2%;
+   padding-right:1%;
+ 
 }
 
+.navbar-secondary{
+    display: flex;
+    width:96%;
+    height:50px;
+    background-color: white;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 0.9em;
+    
+}
 .navbar-main img{
     height:30px;
 }
@@ -15,7 +30,7 @@
 }
 
 .navbar-search{
-    width: 400px;
+    width: 380px;
     min-width:180px;
     height:40px;
     border: 1px solid;
@@ -37,5 +52,6 @@
     outline: none;
     vertical-align: middle;
     
-    width:300px;
+    width:280px;
 }
+
