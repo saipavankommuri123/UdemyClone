@@ -1,0 +1,38 @@
+.slider-image{
+    width:100%;
+}
+
+.transform-right-hide{
+  position: absolute;
+  left: 100%;
+  overflow: hidden;
+  width: 100%;
+  transition: .5s ease;
+}
+.transform-left-hide{
+    position: absolute;
+    right: 100%;
+    overflow: hidden;
+    width: 100%;
+    transition: .5s ease;
+  }
+
+.slide-left{
+    left: 0;
+}
+
+.slide-right{
+    right: 0;
+}
+
+.button-next{
+    position:relative;
+    top:50%;
+z-index: 1;
+}
+
+.button-previous{
+    position:relative;
+    top:50%;
+    z-index: 1;
+}
