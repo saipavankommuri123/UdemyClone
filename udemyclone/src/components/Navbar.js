@@ -1,13 +1,20 @@
 import "./Navbar.css";
 import udemyImage from "../assets/logo-udemy.svg";
+import {useState} from "react";
+import CategoriesDropdown from "./categories/CategoriesDropdown";
+import { categories } from "../assets/sampledata";
 
 const Navbar = () => {
+    // const [showCategories, setShowCategories] = useState(false);
+    // const displayCategories = () => {
+    //     setShowCategories(i => !i);
+    // }
   return (
     <div className="navbar-main">
       <div className="navbar-element">
         <img src={udemyImage} alt="udemy" />
       </div>
-      <div className="navbar-element">Categories</div>
+      <div className="navbar-element-categories"><span>Categories</span><CategoriesDropdown categories={categories}/></div>
       <div className="navbar-element">
         <div className="navbar-search">
           {/* <div>

@@ -55,3 +55,17 @@
     width:280px;
 }
 
+.navbar-element-categories span{
+height:100%;
+line-height: 4em;
+
+}
+
+.navbar-element-categories:hover > ul {
+    display:initial;
+}
+
+.navbar-element-categories ul li:hover > ul {
+    display:initial;
+}
+
