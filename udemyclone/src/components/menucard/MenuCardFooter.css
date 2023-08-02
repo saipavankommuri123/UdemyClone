@@ -1,0 +1,14 @@
+.menu-card-footer{
+    
+}
+
+.menu-card-footer ul{
+    margin-top:0px;
+    padding-left:0px;
+    list-style: none;
+}
+
+.menu-card-footer ul li{
+    text-align: left;
+    padding:8px;
+}

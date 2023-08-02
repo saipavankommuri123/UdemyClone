@@ -1,0 +1,22 @@
+.most-popular-list{
+
+    height:100%;
+    
+}
+
+.most-popular-list ul{
+    margin-top:0px;
+    padding-left:0px;
+    list-style: none;
+}
+
+.most-popular-list ul li{
+    text-align: left;
+    padding:8px;
+}
+
+.popular-list-arrow{
+    position: absolute;
+    left: 90%;
+    font-weight: 600;
+}

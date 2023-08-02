@@ -6,7 +6,7 @@ const CategoriesDropdown = ({ categories }) => {
       <ul className="categories-dropdown">
         {categories["ud-main"].items.map((i) => (
           <li className="categories-dropdown-item">
-            {i.sd_tag.title}
+            <span className="list1-span">{i.sd_tag.title} <span className="list-arrow">&gt;</span></span>
             {i.sublist && (
               <ul className="categories-dropdown2">
                 {i.sublist.items.map((k) => (

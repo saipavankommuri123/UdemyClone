@@ -4,10 +4,12 @@ import "./Top.css"
 // import ImageSlider from "./imageslider/ImageSlider";
 // import ImageSlider2 from "./imageslider/ImageSlider2";
 import ImageCarousel from "./imagecarousel/ImageCarousel";
+import MenuCard from "./menucard/MenuCard";
 import NavbarSecondary from "./navbarsecondary/NavbarSecondary";
 const Top = () => {
     return (
         <div className="top-container">
+           
            <Navbar/>
            <NavbarSecondary/>
           <ImageCarousel/>

@@ -30,6 +30,10 @@
     padding:6px 10px ;
   /* border-top: 1px solid rgb(0,0,0,.1); */
 }
+
+.categories-dropdown-item:hover .list1-span{
+    color: #5624d0;
+}
 .categories-dropdown-item2{
     width:100%;
     padding:6px 10px ;
@@ -38,4 +42,13 @@
 
 .categories-dropdown:hover {
     display: initial;
+}
+
+.categories-dropdown-item p{
+    float:right;
+}
+
+.list-arrow{
+    position:absolute;
+    left:90%
 }
